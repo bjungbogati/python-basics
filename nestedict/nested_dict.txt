@@ -1,0 +1,15 @@
+http://introtopython.org/dictionaries.html#Nesting
+
+http://ohuiginn.net/mt/2010/07/nested_dictionaries_in_python.html
+
+
+
+https://stackoverflow.com/questions/8550912/python-dictionary-of-dictionaries
+
+https://stackoverflow.com/questions/3817529/syntax-for-creating-a-dictionary-into-another-dictionary-in-python
+
+https://www.quora.com/In-Python-can-we-add-a-dictionary-inside-a-dictionary-If-yes-how-can-we-access-the-inner-dictionary-using-the-key-in-the-primary-dictionary
+
+https://www.journaldev.com/14401/python-dictionary
+
+https://stackoverflow.com/questions/11371691/adding-a-new-key-to-a-nested-dictionary-in-python

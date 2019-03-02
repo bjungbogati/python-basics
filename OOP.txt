@@ -1,0 +1,42 @@
+In this article, you’ll learn about the Object Oriented Programming (OOP) in Python. You’ll have the fundamental concept of OOP with examples.
+
+Python is an object-oriented language.
+
+Class
+Object
+Instance Attributes
+Class Attributes
+Methods
+Inheritance
+Data Encapsulation
+
+What is OPP?
+OOP is a problem solving approach where computations are carried out using objects. An object is a basic unit of a program which performs certain actions and interact with other elements of the program. 
+
+In OPP, the attributes and behavious are combined into an object.
+
+For example, an object can be a person with name, age, location, etc as attributes having behaviors like running, jumping, playing etc. 
+
+Class and Object
+
+A class is a collections of objects of the same kind. In other words, a class is a template which describes the common attributes and behaviors to all objects.
+
+Classes are used to create user-defined data structure. In case of a person, you may create a Person() class with properties like name, age, location. 
+
+An object (instance) is a realization of a particular item of a class. In other words, an instance is an instantiation of a class. All the instances of a class have similar properties, as described in the class definition. For example, you can define a class called "Student" and create three instances of the class "Student" for "Peter", "Paul" and "Pauline".
+
+
+Four basic pillars of OOP in Python
+
+Abstraction
+Encapsulation
+Polymorphism
+Inheritance
+
+Classes and Instances 
+Class and Instance Variables 
+Class methods and Static methods
+Inheritance
+Special (Magic/Dunder) Methods
+
+Property Decorators 

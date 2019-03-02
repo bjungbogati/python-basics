@@ -1,0 +1,21 @@
+https://realpython.com/blog/python/python3-object-oriented-programming/#how-to-define-a-class-in-python
+
+https://www.tutorialspoint.com/python3/python_classes_objects.htm
+
+https://www.python-course.eu/object_oriented_programming.php
+
+https://python-textbok.readthedocs.io/en/1.0/Object_Oriented_Programming.html#introduction
+
+
+
+https://python.swaroopch.com/oop.html
+
+
+
+Class
+Object
+Instance Attributes
+Class Attributes
+Methods
+Inheritance
+Data Encapsulation

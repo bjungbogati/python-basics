@@ -1,0 +1,34 @@
+Unit 1: [17 Hrs.]
+Introduction: Characteristics of database approach, Advantages of using DBMS, Database concept and architecture, Data Abstraction, Data Models, Instances and schema, Data independence, schema architecture, Database Languages, Database Manager, Database Administrator, Database Users
+
+Data models: Entity-relationship Model: Entities and entity sets, Relationship and Relationship sets, Attributes, Mapping constraints, Keys, Weak and Strong entity types, E-R Diagrams, Reducing E-R Diagrams to Tables, Specialization and Generalization, Aggregation, Design E-R Database Schema
+
+Relational Model: Structure of Relational Database, The Relational Algebra, The Tuple Relational Calculus, The Domain Relational Calculus, Modifying the Database, Views.
+
+Historical Models: basic concepts of Hierarchical and Network Models. Relational Commercial Languages: SQL and Query By Example (QBE)
+
+
+
+
+
+Unit 2: [14 Hrs.]
+Integrity & Security: Domain Constraints, Referential Integrity, Assertion and Triggers, Authorization & Authentication, Data encryption.
+
+Theory of database design: Functional dependencies, trivial and non trivial dependencies, closure of a set of functional dependencies, irreducible sets of dependencies.
+
+Normalization: non-loss decomposition and functional dependencies, first, second, and third normal forms, Dependency preservation, Boyce-Codd normal form.
+
+
+
+
+
+Unit 3: [14 Hrs.]
+Transaction Processing: Desirable properties of transactions, Implementation of atomicity and durability, Concurrent executions, Schedules and recoverability, testing for Serializability.
+
+Concurrency Control: Overview of Concurrency Control, Locking techniques, Lockbased protocols, Timestamp-based protocols, Commit protocols, Optimistic technique, Granularity of data items, Time stamp ordering multi version concurrency control, Deadlock handling – detection and resolution.
+
+Database Recovery: Failure Classification, The Storage Hierarchy, Transaction Model, Log-Based recovery, Buffer Management, Checkpoints, Shadow Paging, Failure with Loss of Non-volatile Storage.
+
+
+
+http://www.databasteknik.se/webbkursen/relalg-lecture/

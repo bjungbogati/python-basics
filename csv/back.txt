@@ -1,0 +1,18 @@
+"SN", "Author", "Quotes"
+1, Budhha, "What we think, we become"
+2, T.S Eliot, "Every moment is a fresh beginning" 
+3, Mark Twain, "Never regret anything that made you smile"
+
+
+
+
+
+https://courses.cs.washington.edu/courses/cse140/13wi/csv-parsing.html
+
+https://www.google.com/search?client=opera&q=dictreader+python+3&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+https://pymotw.com/2/csv/
+
+http://zetcode.com/python/csv/
+
+https://www.geeksforgeeks.org/working-csv-files-python/

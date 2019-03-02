@@ -1,0 +1,9 @@
+https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3
+
+https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/
+
+http://thepythonguru.com/python-args-and-kwargs/
+
+https://code.tutsplus.com/articles/understanding-args-and-kwargs-in-python--cms-29494
+
+https://wsvincent.com/python-args-kwargs/

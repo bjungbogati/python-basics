@@ -1,0 +1,90 @@
+Numeric Literals are immutable (unchangeable). Numeric literals can belong to following four different numerical types.
+
+Int Literals:
+
+Numbers can be both positive and negative with no fractional part. They are also called signed integers.
+
+Long Literals:
+
+Integers of unlimited size followed by lowercase or uppercase L eg: 87032845L
+
+Float Literals:
+
+Real numbers with both integer and fractional part eg: -26.2
+
+Complex Literals:
+
+In the form of a+bj where a forms the real part and b forms the imaginary part of complex number. eg: 3.14j
+
+
+Boolean Literals:
+
+A Boolean literal can have any of the two values: True or False.
+
+
+Special literals   ::   None
+
+Python contains one special literal i.e., None.
+
+None is used to specify to that field that is not created. It is also used for end of lists in Python.
+
+Unicode literals  
+
+ ::   u"hello"
+
+Literal Collections
+
+List literals
+
+List contain items of different data types. Lists are mutable i.e., modifiable.
+
+
+   ::   [], [5,6,7]
+Tuple literals  
+
+List contain items of different data types. Tuples are unmutable i.e., modifiable.
+
+ ::   (), (9,),(8,9,0)
+Dict literals  
+
+List contain items of different data types. Lists are mutable i.e., modifiable.
+
+ ::   {}, {'x':1}
+Set literals  
+
+ ::   {8,9,10}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+String literals   ::   "halo" , '12345'
+
+Numeric literals
+
+	Int literals   ::   0,1,2,-1,-2
+	Long literals   ::   89675L
+	Float literals   ::   3.14
+	Complex literals   ::   12j
+
+
+Boolean literals   ::   True or False
+Special literals   ::   None
+Unicode literals   ::   u"hello"
+List literals   ::   [], [5,6,7]
+Tuple literals   ::   (), (9,),(8,9,0)
+Dict literals   ::   {}, {'x':1}
+Set literals   ::   {8,9,10}
+
+
+Integer (can be both positive and negative) with no fractional part.

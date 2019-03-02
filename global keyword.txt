@@ -1,0 +1,65 @@
+In this article, you’ll learn about global variables, when to use global keyword.
+
+
+What is Global Keyword?
+Python’s global keyword allows to modify the variable which is out of current scope. It is used to create a global variables in a local context.
+The keyword global is only useful to change or create global variables in a local context, although creating global variables is seldom considered a good solution.
+
+
+
+Global and Local Variables
+In Python, a variable assigned with the global keyword is a global variable. If a variable assigned a value within the function's body, it is a local variable.
+example of global and local variables:
+x = 5
+def show():
+    y = 10
+    print(x)
+    print(y)
+show()
+print(x)
+print(y)
+
+
+Example : Globals and locals with the same name
+x = 5
+y = 15
+def show():
+    y = 10
+    print(x)
+    print(y)
+show()
+print(x)
+print(y)
+The above program, outputs :
+5
+10
+5
+15
+
+
+
+Changing a global variable from within a function
+x = 5
+y = 10
+def show():
+    global x
+    y = 15
+    print(x)
+    print(y)
+    x = x + 1
+    print(x)
+    
+show()
+
+
+
+Global Variables in Nested Functions
+
+
+Rules for the global keyword
+
+Python creates a local variable, if you create a variable inside a function.
+Python uses a global variable, if the variable is not assigned inside a function.
+We use global, when read and write a global variable inside a function
+Use of global outside a function has no effect
+

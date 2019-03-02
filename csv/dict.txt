@@ -1,0 +1,56 @@
+In this article, we will learn how to read data from csv files in python separated by different dialects. 
+Reading different kinds of CSV files using csv.reader module
+Normal CSV file
+Suppose, we have a csv file called people.csv with following data.
+
+SN, Name, City
+1, Siddu, Winona
+2, Dipika, Lalitpur
+3, Binod, Kathmandu
+
+Now, we are going to read above csv file.
+
+import csv
+
+with open('people.csv', 'r') as csvFile:
+    reader = csv.reader(csvFile)
+    for row in reader:
+        print(row)
+        
+csvFile.close()
+
+The above program will output :
+
+['SN', ' Name', ' City']
+['1', ' Siddu', ' Winona']
+['2', ' Dipika', ' Lalitpur']
+['3', ' Binod', ' Kathmandu']
+
+In the above program,
+First, we read the people.csv file, 
+Then, we print the row of each columns.
+CSV file with quotes
+“SN”, “Name”, “Quotes”
+
+['“SN”', ' “Name”', ' “Quotes”']
+
+
+
+
+CSV files with different lineterminator
+
+
+
+
+CSV file with quotechars
+
+
+
+
+Reading CSV file into a dictionary
+
+
+
+
+Getting metadata about the CSV file using the properties of csvreader object
+

@@ -1,0 +1,13 @@
+https://www.yourwebskills.com/pbvariables.php
+
+https://www.programiz.com/swift-programming/variables-constants-literals#what-literal
+
+https://www.javatpoint.com/python-literals
+
+http://www.dalkescientific.com/writings/NBN/python_intro/literals.html
+
+https://stackoverflow.com/questions/24122798/what-are-constants-and-literal-constants
+
+https://stackoverflow.com/questions/34189086/what-are-literals-in-python
+
+https://docs.python.org/3/reference/lexical_analysis.html#literals

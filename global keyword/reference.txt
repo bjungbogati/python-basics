@@ -1,0 +1,10 @@
+http://wiki.schoolcoders.com/coding-in-python/python-for-teachers/global-variables/
+
+https://www.python-course.eu/python3_global_vs_local_variables.php
+
+https://stackoverflow.com/questions/45371563/python-global-keyword
+
+https://stereochro.me/ideas/global-in-python
+
+http://kracekumar.com/post/100399630630/python-global-keyword
+

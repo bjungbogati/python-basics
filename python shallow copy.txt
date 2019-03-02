@@ -1,0 +1,167 @@
+In this article, you’ll learn about python shallow copy, deep copy and the difference between them.
+What is Copy?
+A copy is an operation where the attributes of a data object with similar data types is copied to another object.
+Copy module of Python
+In Python, assignment statements do not copy objects, they create bindings between a target and an object. It is used in collections of mutable items to change one copy without changing the other.
+
+
+The Copy module provides shallow and deep copy operations.
+
+import copy
+copy.copy(a) # return a shallow copy of x.
+copy.deepcopy(a) # return a deep copy of x.
+exception copy.error # raised for module specific errors. 
+Shallow Copy vs Deep copy
+The difference between is valid for compound objects (like lists or class instances):
+
+Shallow Copy
+Deep Copy
+A shallow copy constructs a new compound object and then inserts references into it to the objects found in the original.
+
+
+A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+Shallow copy reduce duplicate when possible. 
+
+A shallow copy of a collection is a copy of the collection structure where two collections share the individual elements.
+
+
+
+Deep copy duplicate everything. 
+
+A deep copy of a collection is two collections with all of the elements in the  duplicated original collection.
+
+Python Shallow Copy
+
+A shallow copy of a collection is a copy of the collection structure where two collections share the individual elements.
+
+x = [[1, 5], [3, [4]]]
+y = list(x)
+
+x[0][1] = 2
+
+print(x)                       
+print(y)  
+
+The output is :
+
+[[1, 2], [3, [4]]]
+[[1, 2], [3, [4]]]
+
+In above program, we have a list x which is assigned to list y. Then, we change the value of list x i.e x[0][1] to 2. When we print the values of x and y, both list x and y have values changed to 2.
+
+
+
+Note: Shallow copy only create a copy on the 0th level. The elements of a nested element are copied by reference.
+
+Example : Using shallow copy in a list
+
+import copy
+
+a = [1,2,3]
+b = copy.copy(a)
+print(hex(id(a)), hex(id(b)))
+
+a[2] = 4
+
+print(a)
+print(b)
+
+
+Output:
+
+0x7fbc2c02e408 0x7fbc1ef3bc08
+[1, 2, 4]
+[1, 2, 3]
+
+
+In the above program, we assign the shallow copy of a into variable b. Then we change the value of third element of a i.e a[2] to 4. After printing the variables, we find that values of a is modified but the b variable remained unchanged.
+
+Note : The memory address of a and b are different after shallow copy so changes in one doesn’t affect the others. 
+
+Example : Using Shallow copy in a nested list
+
+import copy
+
+a = [1, 2, [3,4]]
+b = copy.copy(a)
+
+print(hex(id(a)), hex(id(b)))
+
+print(hex(id(a[2])), hex(id(b[2])))
+
+a[2].append(5)
+
+print(b)
+
+
+Output :
+0x7fbc1eee9ac8 0x7fbc1eee9a48
+0x7fbc1eee9688 0x7fbc1eee9688
+[1, 2, [3, 4, 5]]
+
+
+In above program, both address of a and b are still different. But, the nested lists i.e a[2] and b[2] have same address. So, after updating original nested list, it updates the copy as well.
+
+
+Python Deep Copy 
+
+A deep copy of a collection is two collections with all of the elements in the  duplicated original collection.
+
+import copy
+lista = [[1, 1], [3, 4, [5, 6]]]
+listb = copy.deepcopy(lista)
+lista[0][1] = 2
+print(lista) 
+print(listb) 
+
+The output is : 
+
+[[1, 2], [3, 4, [5, 6]]]
+[[1, 1], [3, 4, [5, 6]]]
+
+
+In the above program, both addresses of lista and listb are different. Updating the original list i.e lista don’t affect the copied variable i.e listb.
+Example : Using deep copy in a list
+
+import copy
+i = [1,2,3]
+j = copy.deepcopy(i)
+print(hex(id(i)), hex(id(j)))
+i.append(4)
+print(i)
+print(j)
+
+
+Output :
+
+0x7fbc1ef24d88 0x7fbc1eed4b48
+[1, 2, 3, 4]
+[1, 2, 3]
+
+In the above program, both addresses of list i and j are different. Updating the original list i.e i don’t affect the copied variable i.e j.
+
+Example : Using deep copy in a nested list
+
+import copy
+i = [1,2,[3,4]]
+j = copy.deepcopy(i)
+print(hex(id(i)), hex(id(j)))
+print(hex(id(i[2])), hex(id(j[2])))
+i[2].append(5)
+print(i)
+print(j) 
+
+Ouput :
+
+0x7fbc1eed4d88 0x7fbc1eee9a48
+0x7fbc1eed4a48 0x7fbc1f7aa648
+[1, 2, [3, 4, 5]]
+[1, 2, [3, 4]]
+
+
+In the above program, both addresses of i and j are still different. But the nested lists i.e i[2] and j[2] have different address. So, updating the original nested list doesn't affect the copied variable i.e j.
+
+
+
+
+

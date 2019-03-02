@@ -1,0 +1,80 @@
+The copy() method returns a shallow copy of the set.
+
+
+We can copy a set using = operator in Python. For example :
+
+num = {a, b, c, d}
+new_num = num
+
+
+We have a problem when we copy the set in this way. The problem is if you modify num set, the new_num set is also modified. This is called deep copy.
+
+numbers = {1, 2, 3, 4}
+new_numbers = numbers
+
+new_numbers.add('5')
+
+print('numbers: ', numbers)
+print('new_numbers: ', new_numbers)
+
+
+When you run the program, the output will be:
+
+numbers:  {1, 2, 3, 4, '5'}
+new_numbers:  {1, 2, 3, 4, '5'}
+
+
+However, if we need the original set unchanged when the new set is modified, we can use copy() method. This is called shallow copy.
+
+The syntax of copy() is :
+
+set.copy()
+
+
+How copy() works
+
+num = {1, 2, 3, 4}
+new_num = numbers.copy()
+
+new_num.add('5')
+
+print('numbers:', num)
+print('new_num:', new_num)
+
+
+
+
+Using shallow copy in a list
+
+We can copy a list with = operator. For example :
+
+old_list = [1, 2, 3]
+new_list = old_list
+
+We have problem with copying the list in this way because if we modify the new_list, the old list is also modified.
+
+
+
+
+
+
+Using shallow copy in a nested list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

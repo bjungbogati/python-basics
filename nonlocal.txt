@@ -1,0 +1,23 @@
+Nonlocal is similar in meaning to global. But it takes effect primarily in nested methods. It means "not a global or local variable." So it changes the identifier to refer to an enclosing method's variable
+
+
+
+
+
+“nonlocal” scope which is in-between these two types of scopes
+
+Nonlocal keyword allows you to assign variable in nested function but have non-global scope. This means, nonlocal scope is in-between global and local scope.
+
+Nonlocal keyword is similar to global. It is applied in nested functions. The nonlocal scope is in-between global and local scopes.
+
+
+A variable which breaks the scope of local variable inside nested function.
+
+
+We create nonlocal variable using nonlocal keyword.
+
+Example:
+
+def out():
+    
+
